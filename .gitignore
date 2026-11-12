@@ -1,0 +1,52 @@
+# Arquivos de estado do Terraform
+*.tfstate
+*.tfstate.*
+
+# Arquivos de registro de falhas
+crash.log
+
+# Arquivos de sobrescrita, geralmente locais e não compartilhados
+override.tf
+override.tf.json
+*.override.tf
+*.override.tf.json
+
+# Arquivos de configuração da linha de comando
+.terraformrc
+terraform.rc
+
+# Arquivos gerados pelo Terraform
+.terraform/
+*/*/.terraform/
+*/*/.terraform.*
+
+# Arquivos de plano do Terraform
+*.tfplan
+
+# Registros de execução dos comandos do Terraform
+*.log
+
+# Arquivos de variáveis sensíveis
+*/*/*.tfvars
+*.tfvars.json
+
+# Cópias de segurança de arquivos do Terraform
+*.tf.backup
+
+# Outros arquivos
+.DS_Store
+Thumbs.db
+
+# Estado e arquivos temporários do Terraform
+**/.terraform.tfstate
+**/.terraform.tfstate.*
+**/.terraform.tfstate.lock.info
+
+# Variáveis de ambiente
+var.ps1
+var.sh
+
+lessons/day27/infra/modules/compute/scripts/1.sh
+lessons/day27/infra/modules/compute/scripts/2.sh
+lessons/day27/infra/backend_key.pem
+lessons/day27/infra/frontend_key.pem
